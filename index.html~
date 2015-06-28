@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="wrapper">
+    <div id="naglowek"><h3>Dobre myśli na każdy dzień -&nbsp; Version. 0.1.4</h3></div>
+        <div id="navigation">Designed by <a href="http://www.metrobit.pl">metrobit.pl</a></div>
+        <div id="left-column">
+                <form action="dopisz1.php" method="GET" id="formularz">
+                <fieldset id="legend">
+		<legend id="legend">Dodaj swoją myśl do bazy</legend><br/>
+		<table border="0" >
+                    <tr>
+                        <td>Twój złoty cytat:</td>
+                        <td><input type="text" name="cytat" placeholder="Wpisz myśl..."/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" name="submit" value="Prześlij swoją myśl" /></td>
+                    </tr>
+                </table>
+		</fieldset>
+            </form>
+                </div>
+        
+		<div id="right-column">
+				<form action="dopisz2.php" method="GET" id="formularz">
+				<fieldset id="legend">
+		<legend id="legend">Wylosuj z bazy</legend><br/>
+		<table border="0" >
+		<br />
+                    <tr>
+                        <td colspan="2"><input type="submit" name="submit" value="Wylosuj złotą myśl" /></td>
+                    </tr>
+		
+                </table>
+		</fieldset>
+            </form>
+<form action="wyswietl.php" method="GET" id="formularz">
+				<fieldset id="legend">
+		<legend id="legend">Wyświetl z bazy</legend><br/>
+		<table border="0" >
+		<br />
+                    <tr>
+                        <td colspan="2"><input type="submit" name="submit" value="Wyświetl wszystkie myśli" /></td>
+                    </tr>
+		
+                </table>
+		</fieldset>
+            </form>
+        </div>
+		</div>
+    </div>
+</body>
+</html>
