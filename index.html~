@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="wrapper">
-    <div id="naglowek"><h3>Dobre myśli na każdy dzień -&nbsp; Version. 0.1.4</h3></div>
+    <div id="naglowek"><h3>Dobre myśli na każdy dzień -&nbsp; Version. 0.1.5</h3></div>
         <div id="navigation">Designed by <a href="http://www.metrobit.pl">metrobit.pl</a></div>
         <div id="left-column">
                 <form action="dopisz1.php" method="GET" id="formularz">
